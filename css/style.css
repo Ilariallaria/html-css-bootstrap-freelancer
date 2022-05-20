@@ -62,6 +62,30 @@ header .burger{
  font-size: 1.2rem;
 }
 
+.star-case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.star-bar{
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+.light-star{
+    background-color: white;
+
+}
+
+.dark-star{
+    background-color: black;
+}
+
+
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* MAIN *-*-*-*-*-*-*-*-*-*-*-*/
 
 ---------------------/* jumbo */
