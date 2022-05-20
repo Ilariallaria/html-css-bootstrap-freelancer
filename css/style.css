@@ -1,0 +1,130 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    padding: 2.5rem 0;
+}
+
+.ms_small-cont{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.ms_title{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* HEADER *-*-*-*-*-*-*-*-*-*-*-*/
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav{
+    text-align: right;
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* MAIN *-*-*-*-*-*-*-*-*-*-*-*/
+
+---------------------/* jumbo */
+.ms_jumbo{
+    background-color: #5cbd9d;
+}
+
+.ms_jumbo-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ms_jumbo-txt{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.ms_image{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.ms_jumbo ul{
+    text-align: center;
+
+}
+.ms_jumbo li{
+    padding: 0 10px;
+}
+
+/* ----------------------------about*/
+
+.ms_about{
+    background-color: #5cbd9d;
+}
+.ms_btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*--------------------------- contact */
+.ms_form div{
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0;
+}
+
+.ms_form div:last-of-type{
+    padding: 10px 0 90px;
+}
+
+.left
+{
+    text-align: left;
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* FOOTER *-*-*-*-*-*-*-*-*-*-*/
+
+footer{
+    padding-top: 2.5rem;
+}
+
+.f-top{
+    text-align: center;
+    background-color: #3a546d;
+    color: white;
+}
+.location, .social, .ab-freelancer{
+    padding-top: 20px;
+}
+
+.f-bottom{
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+}
+.privacy{
+    padding: 20px 0 30px 0;
+    font-size: 11px;
+}
+
+/* 
+@media all and (min-width: 1121px) and (min-width: 1400px){
+} */
