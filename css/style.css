@@ -102,14 +102,24 @@ header .burger{
 }
 
 /*--------------------------- contact */
-.ms_form div{
+input.form-control, 
+textarea.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 18px;
+    padding: 10px;
+} 
+/* input.form-control:focus, 
+textarea.form-control:focus {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
     border-bottom: 1px solid lightgray;
-    padding: 5px 0;
-}
+    box-shadow: none;
+} */
 
-.ms_form div:last-of-type{
-    padding: 10px 0 90px;
-}
+
 
 .left{
     text-align: left;
